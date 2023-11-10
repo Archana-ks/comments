@@ -1,0 +1,81 @@
+
+body {
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+  background-color: hsl(97, 22%, 93%); 
+}
+
+.App {
+  text-align: center;
+  margin: 15px;
+}
+
+h2 {
+  color:black; 
+}
+
+.comment-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  background-color:hsl(97, 22%, 93%);; 
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.comment-list {
+  list-style: none;
+  padding: 0;
+  width: 50%;
+}
+
+.comment-list li {
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(156, 114, 114); 
+  color: black; 
+}
+
+.add-comment-form {
+  margin-top: 20px;
+}
+
+.add-comment-form textarea {
+  width: 50%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid black; 
+  margin-bottom: 10px;
+}
+.btn1{
+  padding: 8px 20px;
+  border: none;
+  background-color: rgb(64, 247, 64);
+  border-radius: 50px;
+  gap:20px;
+  margin-right:20px;
+  margin-left: 20px;
+}
+.btn2{
+  padding: 8px 20px;
+  border: none;
+  background-color: rgb(240, 48, 48);
+  border-radius: 50px;
+  margin-right:20px;
+  margin-left: 20px;
+
+}
+
+.add-comment-form button {
+  padding: 8px 20px;
+  border: none;
+  background-color:rgb(64, 247, 64);
+  color:black; 
+  border-radius: 5px;
+  cursor: pointer;
+  gap: 10px;
+}
+
